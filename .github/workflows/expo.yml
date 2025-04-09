@@ -1,7 +1,6 @@
 on:
   push:
-    branches:
-      - master
+    branches:branches: ["frontend-app"]
 jobs:
   update:
     runs-on: ubuntu-latest

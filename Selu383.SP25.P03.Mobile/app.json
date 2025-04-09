@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Selu383-SP25-P03-Mobile-g05",
-    "slug": "Selu383-SP25-P03-Mobile-g05",
+    "name": "Selu383-SP25-P03-Mobile-g05-mv",
+    "slug": "Selu383-SP25-P03-Mobile-g05-mv",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -12,7 +12,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.selu383.sp25.p03.g05",
+      "package": "com.selu383.sp25.p03.g05.mv",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -42,7 +42,10 @@
       "router": {
         "origin": false
       },
-      "eas": {}
-    }
+      "eas": {
+        "projectId": "e85f5024-678b-4b53-a146-ff3ab5f332e0"
+      }
+    },
+    "owner": "matthewvidacovich"
   }
 }
